@@ -6,7 +6,7 @@
     <body>
         <div class="score-section">
             <div class="score-container">
-                <h1>ALIENS</h1>
+                <h1>HOME</h1>
                 <div class="scorecount">
                     <h2 id="home-score">0</h2>
                 </div>
@@ -15,7 +15,7 @@
                 <button class ="add-button" id="home3btn">+3</button>
             </div>
             <div class="score-container">
-                <h1>UNICORNS</h1>
+                <h1>AWAY</h1>
                 <div class="scorecount">
                     <h2 id="guest-score">0</h2>
                 </div>
@@ -30,7 +30,9 @@
                 00:00:00
             </div>
             <div id="controls">
-                <button id="start-btn" class ="add-button" onclick="start()">Start</button>
+                <button id="start-btn" class="add-button" onclick="start()">Start</button>
+                <button id="stop-btn" class="add-button" onclick="stop()">Stop</button>
+                <button id="reset-btn" class="add-button" onclick="resetTimer()">Reset</button>
             </div>
         </div>
         <script src="index.js"></script>
